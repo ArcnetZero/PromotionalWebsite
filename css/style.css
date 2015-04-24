@@ -1,6 +1,6 @@
 /*------------------------- Layout styles ------------------------*/
 body {
-	background:url(../images/matrixBackground.jpg);
+	background:url(../images/background.png);
 	margin:0;
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
@@ -19,102 +19,21 @@ p a:hover {
 }
 /*------------------------- Header ------------------------*/
 .header {
-	background:url() repeat-x;
 	height:168px;
 	margin:0 0 41px;
 }
-.header div a {
-	outline:none;
+#logo {margin-right: 15px;
+    text-align: right;
+    width: 23%;
 }
-.header div {
-	margin:0 auto;
-	padding:0 30px;
-	position:relative;
-	width:900px;
+.title {text-align: right;
+    color: black;
+    font-family: 'orbitron', sans-serif;
+    font-weight: 700;
 }
-.header div a#logo {
-	display:block;
-	float:left;
-	height:103px;
-	margin:0 28px 0 0;
-	width:272px;
+.titleQuotes {
+    font-size: 130%;
 }
-.header div a#logo img {
-	border:0;
-}
-.header div ul {
-	list-style:none;
-	margin:0;
-	overflow:hidden;
-	padding:89px 0 0;
-}
-.header div ul li:first-child {
-	margin:0;
-}
-.header div ul li.selected {
-	background:url(../images/border-horizontal.gif) repeat-x left top #252525;
-}
-.header div ul li {
-	float:left;
-	height:51px;
-	margin:0 0 0 15px;
-	padding:0 10px;
-	text-align:center;
-}
-.header div ul li.selected a {
-	color:#fff;
-	text-shadow:0 -1px 0 #010101;
-}
-.header div ul li a {
-	color:#e8e1aa;
-	display:block;
-	font-size:16px;
-	font-weight:700;
-	line-height:50px;
-	text-decoration:none;
-	text-shadow:0 -1px 0 #524437;
-	text-transform:uppercase;
-}
-.header div ul li a:hover {
-	color:#fff;
-}
-.header div div {
-	background:url(../images/interface.png) no-repeat -10px -606px;
-	height:73px;
-	padding:0;
-	position:absolute;
-	right:30px;
-	text-align:center;
-	top:0;
-	width:302px;
-}
-.header div div p {
-	color:#fff;
-	display:block;
-	font-size:16px;
-	font-weight:700;
-	margin:18px 0 0;
-	text-shadow:0 -1px 0 #030002;
-	text-transform:uppercase;
-}
-.header div ul li a span {
-	font-size:20px;
-}
-.header div div p > span {
-	font-size:20px;
-	display: inline;
-}
-.header div div p > span > span {
-	color:#E17537;
-	display:inline;
-	font-size:19px;
-	margin:0;
-	width:auto;
-	padding:0;
- *margin-right:4px; /* Needed for IE7 */
-}
-#logo {margin-left: 15px;}
-
 /*------------------------- Body ------------------------*/
 .body div {
 	background:url(../images/shadow.png) no-repeat left bottom;
