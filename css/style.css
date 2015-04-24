@@ -19,7 +19,7 @@ p a:hover {
 }
 /*------------------------- Header ------------------------*/
 .header {
-	background:url(../images/bg-header.png) repeat-x;
+	background:url() repeat-x;
 	height:168px;
 	margin:0 0 41px;
 }
@@ -157,6 +157,7 @@ p a:hover {
 	height:52px;
 	line-height:42px;
 	margin:24px auto 25px;
+	padding-left: 45px;
 	width:281px;
 	text-indent: 40px;
 }
