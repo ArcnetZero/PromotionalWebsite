@@ -113,6 +113,8 @@ p a:hover {
 	padding:0;
  *margin-right:4px; /* Needed for IE7 */
 }
+#logo {margin-left: 15px;}
+
 /*------------------------- Body ------------------------*/
 .body div {
 	background:url(../images/shadow.png) no-repeat left bottom;
