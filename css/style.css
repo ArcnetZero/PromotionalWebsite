@@ -1,7 +1,6 @@
-/* Website template by freewebsitetemplates.com */
 /*------------------------- Layout styles ------------------------*/
 body {
-	background:url(../images/bg-body.jpg);
+	background:url(../images/matrixBackground.jpg);
 	margin:0;
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
@@ -11,7 +10,6 @@ p a {
 p a:hover {
 	color:#525252!important;
 }
-/*------------------------- Layout styles ------------------------*/
 @font-face {
 	font-family: 'forumregular';
 	src: url('../fonts/forum-regular-webfont.eot');
