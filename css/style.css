@@ -33,15 +33,17 @@ p a:hover {
 	margin:0 0 41px;
 	text-align: center;
 }
-#logo {margin-right: 15px;
+#logo {
+    margin-right: 15px;
     text-align: right;
-    width: 23%;
+    width: 43%;
 }
-.title {text-align: right;
+.title {
+    text-align: right;
     color: black;
-    font-family: testFont;
+    font-family: Corruptor;
     font-weight: 700;
-    font-size: 300%;
+    font-size: 100%;
 }
 /*------------------------- Body ------------------------*/
 .body div {
@@ -62,11 +64,11 @@ p a:hover {
 	width:auto;
 }
 .body div div.featured img {
-	border:2px solid #a1ad7f;
+	border:2px solid rosybrown;
 	float:left;
 }
 .body div div.featured div {
-	background:url(../images/frame1.gif) no-repeat center 12px #757e63;
+	background:url(../images/frame1.gif) no-repeat center 12px indianred;
 	border:0 none!important;
 	border-radius:0 0 0 0!important;
 	float:left;
