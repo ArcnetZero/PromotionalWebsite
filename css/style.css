@@ -11,11 +11,6 @@ p a:hover {
 	color:#525252!important;
 }
 @font-face {
-    font-family: 'forumregular';
-    src: url('../fonts/forum-regular-webfont.eot');
-    src: url('../fonts/forum-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/forum-regular-webfont.woff') format('woff'), url('../fonts/forum-regular-webfont.ttf') format('truetype'), url('../fonts/forum-regular-webfont.svg#forumregular') format('svg');
-}
-@font-face {
     font-family: computerFont;
     src: url('../fonts/Computerfont.ttf');
 }
@@ -24,19 +19,19 @@ p a:hover {
     src: url('../fonts/Corruptor-LDR.ttf');
 }
 @font-face {
-    font-family: DeadSpace;
+    font-family: 'forumregular';
     src: url('../fonts/DeadSpaceTitleFont.ttf');
 }
 /*------------------------- Header ------------------------*/
 .header {
 	height:168px;
 	margin:0 0 41px;
-	text-align: center;
 }
 #logo {
-    margin-right: 15px;
-    text-align: right;
-    width: 43%;
+    margin-left: 10%;
+    margin-top: 5px;
+    text-align: left;
+    width: 250px;
 }
 .title {
     text-align: right;
@@ -84,7 +79,7 @@ p a:hover {
 .body div div.featured div div h3 {
 	background:url(../images/interface.png) no-repeat -1px -680px;
 	border:0 none;
-	color:#534a39;
+	color:#ffffff;
 	font-size:16px;
 	height:52px;
 	line-height:42px;
@@ -101,7 +96,6 @@ p a:hover {
 	color:#fff!important;
 	line-height:24px!important;
 	padding:0 30px!important;
-	text-align:justify!important;
 	font-family: 'forumregular';
 	letter-spacing:0.028em;
 	font-weight:normal;
@@ -129,7 +123,7 @@ p a:hover {
 }
 .body div div {
 	background:none;
-	background-color:#e8e1ab;
+	background-color: indianred;
 	border-radius:5px;
 	float:none!important;
 	overflow:hidden;
@@ -137,7 +131,7 @@ p a:hover {
 }
 .body div div div {
 	background:none;
-	border:1px solid #717a5d;
+	border:1px solid lightcoral;
 	border-radius:0;
 	padding:0!important;
 	width:880px;
@@ -152,30 +146,25 @@ p a:hover {
 	margin:0;
 	padding:0!important;
 	width:588px;
-	border-color: #717A5D;
+	border-color: lightcoral;
 	border-style: none solid none none;
 	border-width: 1px;
 }
 .body div div div div div.section h2 {
-	border-color:#717a5d;
-	border-width:1px;
-	color:#756752;
+	color:#ffffff!important;
 	font-size:30px!important;
 	height:73px;
 	line-height:77px;
 	margin:2px auto;
 	text-align:center;
-	text-shadow:0 1px 0 #fff7c6;
-	border-color: ;
-	border-style: none none solid;
-	border-width: 0px;
 	padding:2px 0 0 !important;
+    font-family: 'forumregular';
 }
 .body div div div div div.section p {
-	border-color:#6d765b;
+	border-color:lightcoral;
 	border-style:solid none none;
 	border-width:0px;
-	color:#6d765b;
+	color:#ffffff;
 	line-height:24px;
 	margin:2px 0 0;
 	padding:24px 15px 0;
@@ -235,7 +224,7 @@ p a:hover {
 	border:0;
 }
 .body div div div h3 {
-	color:#756555;
+	color:#ffffff;
 	font-size:14px;
 	margin:0;
 	padding:9px 0 5px 17px;
@@ -244,9 +233,10 @@ p a:hover {
 	font-weight:normal;
 	padding-left: 17px;
 	letter-spacing:0.028em;
-	border-color: #717A5D;
+	border-color: lightcoral;
 	border-style: none none solid;
 	border-width: 1px;
+    font-family: forumregular;
 }
 .body div div div ul {
 	list-style:none;
@@ -257,13 +247,13 @@ p a:hover {
 	margin:2px 0 0;
 }
 .body div div div ul li {
-	border-color:#717a5d;
+	border-color:lightcoral;
 	border-style:solid none none;
 	border-width:1px;
 	overflow:hidden;
 }
 .body div div div ul li.last {
-	border-color:#717a5d;
+	border-color:lightcoral;
 	border-style:solid none;
 	border-width:1px;
 }
@@ -272,7 +262,7 @@ p a:hover {
 	width:290px!important;
 }
 .body div div div ul li div span {
-	color:#717A5D;
+	color:#ffffff;
 	display:block;
 	font-size:16px;
 	font-weight:400;
@@ -324,14 +314,14 @@ p a:hover {
 	width:589px!important;
 }
 .body div div div div.about div:first-child h2, .body div div div div.programs h2, .body div div div div.competition h2, .body div div div div.activities h2, .body div div div div.application h2, .body div div div div.staff h2, .body div div div div.register h2, .body div div div div.blog h2, .body div div div div.events h2, .body div div div div div.section h2, .body div.contact div div div.contact h2 {
-	color:#756752;
+	color:#ffffff;
 	text-transform:uppercase;
 	font-size:36px;
 	letter-spacing:0.028em;
 	font-weight:bold;
 	text-shadow:0 1px 0 #fff8c7;
 	text-align:center;
-	border-color: #717A5D;
+	border-color: lightcoral;
 	border-style: none none solid;
 	border-width: 1px;
 	padding:19px 0 18px;
@@ -349,7 +339,7 @@ p a:hover {
 }
 .body div div div div.about div:first-child p {
 	border:0 none;
-	color:#707070;
+	color:#ffffff;
 	font-size:16px;
 	letter-spacing:1px;
 	line-height:24px;
@@ -358,7 +348,7 @@ p a:hover {
 	font-family: 'forumregular';
 }
 .body div div div div.about div:first-child p a {
-	color: #E17439;
+	color: #ffffff;
 	display: inline;
 	float: none;
 	font-weight: 400;
@@ -389,7 +379,7 @@ p a:hover {
 }
 .body div div div div.about div div p {
 	border:0 none;
-	color:#707070;
+	color:#ffffff;
 	font-size:16px;
 	letter-spacing:1px;
 	line-height:24px;
@@ -553,7 +543,7 @@ p a:hover {
 	padding:0;
 }
 .body div div div div.application form, .body div div div div.register form {
-	border-color:#717A5D;
+	border-color:#ffffff;
 	border-style:solid none;
 	border-width:1px;
 	margin:0;
@@ -564,7 +554,7 @@ p a:hover {
 .body div div div div.register form textarea#address {
 	background:url(../images/interface.png) no-repeat -10px -517px;
 	border:0;
-	color:#776855;
+	color:#ffffff;
 	font-size:14px;
 	height:65px;
 	margin:0 0 1px;
@@ -583,7 +573,7 @@ p a:hover {
 	width:435px!important;
 }
 .body div div div div.application form div:first-child td {
-	color:#776855;
+	color:#ffffff;
 	font-size:17px;
 	font-weight:700;
 	height:auto;
@@ -596,7 +586,7 @@ p a:hover {
 	vertical-align:top;
 }
 .body div div div div.application form div:first-child label {
-	color:#776855;
+	color:#ffffff;
 	display:inline-block;
 	font-size:17px;
 	font-weight:700;
@@ -605,7 +595,7 @@ p a:hover {
 	line-height: 30px;
 }
 .body div div div div.register form div:first-child label {
-	color:#776855;
+	color:#ffffff;
 	display:inline-block;
 	font-size:16px;
 	font-weight:700;
@@ -621,7 +611,7 @@ p a:hover {
 .body div div div div.application form div:first-child input {
 	background:url(../images/interface.png) no-repeat -10px -946px;
 	border:0;
-	color:#776855;
+	color:#ffffff;
 	font-size:14px;
 	padding:7px 5px;
 	width:250px;
@@ -631,7 +621,7 @@ p a:hover {
 .body div div div div.register form div:first-child input, .body div div div div.contact form input {
 	background:url(../images/interface.png) no-repeat -10px -1026px;
 	border:0;
-	color:#776855;
+	color:#ffffff;
 	font-size:14px;
 	padding:7px 5px;
 	width:410px;
@@ -651,7 +641,7 @@ p a:hover {
 }
 .body div div div div.application form div:first-child input#gender1 {
 	background:none;
-	color:#776855;
+	color:#ffffff;
 	font-size:17px;
 	font-weight:700;
 	height:auto;
@@ -683,7 +673,7 @@ p a:hover {
 }
 .body div div div div.application form div:first-child input#gender2 {
 	background:none;
-	color:#776855;
+	color:#ffffff;
 	font-size:17px;
 	font-weight:700;
 	height:auto;
@@ -700,7 +690,7 @@ p a:hover {
 	padding:0 0 12px;
 }
 .body div div div div.application form div label {
-	color:#776855;
+	color:#ffffff;
 	display:inline-block;
 	font-size:17px;
 	font-weight:700;
@@ -731,7 +721,7 @@ p a:hover {
 .body div div div div.application textarea#address {
 	background:url(../images/interface.png) no-repeat -10px -404px;
 	border:0;
-	color:#776855;
+	color:#ffffff;
 	font-size:14px;
 	height:89px;
 	overflow:auto;
@@ -748,7 +738,7 @@ p a:hover {
 	width:250px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
-	color: #776855;
+	color: #ffffff;
 }
 .body div.applications {
 	margin-bottom:335px;
@@ -757,7 +747,7 @@ p a:hover {
 	margin-bottom:195px;
 }
 .body div.register div h2, .events h2 {
-	color:#756752;
+	color:#ffffff;
 	text-transform:uppercase;
 	font-size:36px!important;
 	letter-spacing:0.028em;
@@ -772,11 +762,11 @@ p a:hover {
 }
 .body div div div div.staff div.first h3:first-letter, .body div div div div.staff div.first h3 span {
 	font-size:26px;
-	color:#756752;
+	color:#ffffff;
 }
 .body div div div div.staff div.first h3 {
 	border:0;
-	color:#776855;
+	color:#ffffff;
 	display:inline-block;
 	font-size:20px;
 	font-weight:700;
@@ -793,7 +783,7 @@ p a:hover {
 .body div div div div.staff div.first form input {
 	background:url(../images/interface.png) no-repeat -10px -906px;
 	border:0;
-	color:#7c8668;
+	color:#ffffff;
 	font-size:16px;
 	font-style:italic;
 	margin:0 0 4px;
@@ -804,7 +794,7 @@ p a:hover {
 }
 .body div div div div.staff div.first form a {
 	background: none repeat scroll 0 0 transparent;
-	color: #707070;
+	color: #ffffff;
 	float: none;
 	font-size: 16px;
 	height: auto;
@@ -990,7 +980,7 @@ p a:hover {
 	border-color: #717A5D;
 }
 .body div.contact div.address span {
-	color:#776855;
+	color:#ffffff;
 	float:left;
 	font-size:17px;
 	font-weight:700;
@@ -1031,7 +1021,7 @@ p a:hover {
 }
 .body div.contact h3 {
 	border:0 none;
-	color:#776855;
+	color:#ffffff;
 	font-size:17px;
 	font-weight:700;
 	margin:0;
@@ -1043,7 +1033,7 @@ p a:hover {
 	font-size:21px;
 }
 .body div.contact form label {
-	color:#776855;
+	color:#ffffff;
 	display:inline-block;
 	font-size:17px;
 	font-weight:700;
@@ -1054,7 +1044,7 @@ p a:hover {
 .body div.contact form textarea {
 	background:url(../images/interface.png) no-repeat -10px -244px;
 	border:0;
-	color:#776855;
+	color:#ffffff;
 	font-size:14px;
 	height:136px;
 	overflow:auto;
