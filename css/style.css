@@ -155,15 +155,15 @@ p a:hover {
 	margin:2px auto;
 	text-align:center;
 	text-shadow:0 1px 0 #fff7c6;
-	border-color: #717A5D;
+	border-color: ;
 	border-style: none none solid;
-	border-width: 1px;
+	border-width: 0px;
 	padding:2px 0 0 !important;
 }
 .body div div div div div.section p {
 	border-color:#6d765b;
 	border-style:solid none none;
-	border-width:1px;
+	border-width:0px;
 	color:#6d765b;
 	line-height:24px;
 	margin:2px 0 0;
@@ -1110,7 +1110,7 @@ p a:hover {
 	font-size:25px;
 }
 .body div div div div.blog div, .body div div div div.events div {
-	border-width:1px;
+	border-width:0px;
 	border-style:solid none solid solid;
 	padding:0 0 10px!important;
 	width:251px;
