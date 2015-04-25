@@ -40,6 +40,17 @@ p a:hover {
     font-weight: 700;
     font-size: 100%;
 }
+/*------------------------- Left ------------------------*/
+.left {
+    text-align: left;
+    width: 200px;
+}
+
+
+
+
+
+
 /*------------------------- Body ------------------------*/
 .body div {
 	background:url(../images/shadow.png) no-repeat left bottom;
