@@ -280,10 +280,10 @@ p a:hover {
 	font-family: 'forumregular';
 }
 .body div div div a {
-	color:#756752;
+	color:#ffffff;
 	display:block;
 	float:right;
-	font-size:16px;
+	font-size:12px;
 	margin:0 10px 0 0;
 	line-height:24px;
 	letter-spacing:0.028em;
@@ -292,7 +292,7 @@ p a:hover {
 	font-family: 'forumregular';
 }
 .body div div div a:hover {
-	color:#756752!important;
+	color:#crimson!important;
 }
 .body div div div div.about, .body div div div div.programs, .body div div div div.competition, .body div div div div.activities, .body div div div div.application, .body div div div div.staff, .body div div div div.register, .body div div div div.staff, .body div div div div.blog, .body div div div div.events {
 	border-bottom: 0 none;
