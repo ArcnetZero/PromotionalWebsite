@@ -31,6 +31,7 @@ p a:hover {
 .header {
 	height:168px;
 	margin:0 0 41px;
+	text-align: center;
 }
 #logo {margin-right: 15px;
     text-align: right;
