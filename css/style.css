@@ -11,11 +11,21 @@ p a:hover {
 	color:#525252!important;
 }
 @font-face {
-	font-family: 'forumregular';
-	src: url('../fonts/forum-regular-webfont.eot');
-	src: url('../fonts/forum-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/forum-regular-webfont.woff') format('woff'), url('../fonts/forum-regular-webfont.ttf') format('truetype'), url('../fonts/forum-regular-webfont.svg#forumregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'forumregular';
+    src: url('../fonts/forum-regular-webfont.eot');
+    src: url('../fonts/forum-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/forum-regular-webfont.woff') format('woff'), url('../fonts/forum-regular-webfont.ttf') format('truetype'), url('../fonts/forum-regular-webfont.svg#forumregular') format('svg');
+}
+@font-face {
+    font-family: computerFont;
+    src: url('../fonts/Computerfont.ttf');
+}
+@font-face {
+    font-family: Corruptor;
+    src: url('../fonts/Corruptor-LDR.ttf');
+}
+@font-face {
+    font-family: DeadSpace;
+    src: url('../fonts/DeadSpaceTitleFont.ttf');
 }
 /*------------------------- Header ------------------------*/
 .header {
@@ -28,11 +38,9 @@ p a:hover {
 }
 .title {text-align: right;
     color: black;
-    font-family: 'orbitron', sans-serif;
+    font-family: testFont;
     font-weight: 700;
-}
-.titleQuotes {
-    font-size: 130%;
+    font-size: 300%;
 }
 /*------------------------- Body ------------------------*/
 .body div {
